@@ -1,0 +1,16 @@
+.logo-implementado{
+    height: 7vh;
+    width: 70%;    
+}
+#color-logo{
+    background: #272c30;
+}
+#nav-color{
+    background: #272c30;
+}
+@media screen and (max-width:600px) {
+    .logo-implementado{
+        height: 5vh;
+        width: 70%;    
+    }
+}

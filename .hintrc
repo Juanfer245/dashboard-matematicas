@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "axe/parsing": "off",
+    "axe/text-alternatives": "off",
+    "axe/aria": "off",
+    "axe/keyboard": "off",
+    "axe/structure": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off"
+  }
+}
